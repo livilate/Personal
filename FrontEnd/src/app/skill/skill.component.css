@@ -1,0 +1,17 @@
+.skill-card {
+  text-align: center;
+}
+::ng-deep .p-card {
+  border-radius: 10px;
+}
+::ng-deep .p-card:hover {
+  background-color: rgb(129, 129, 129);
+  color: white;
+  cursor: pointer;
+}
+.titulo {
+  color: black;
+}
+.margen-top {
+  margin-top: 500px;
+}

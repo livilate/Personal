@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+.center {
+  left: 50%;
+  position: relative;
+}
+.titulo {
+  color: orange;
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+.margen-top {
+  margin-top: 200px;
+}
+.margen-bottom {
+  margin-bottom: 270px;
+}

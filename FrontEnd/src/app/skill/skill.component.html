@@ -1,0 +1,13 @@
+<div class="col-xs-12 col-md-12 col-xl-12"><!--[ngStyle]="{'min height.px': getScreenHeight}"-->
+    <br>
+    <h1 class="titulo">Skills</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-3 col-md-3 col-xl-3" *ngFor="let skill of skills">
+                <p-card class="col-xs-12 col-md-12 col-xl-12 skill-card" header="{{skill.Nombre}}">
+                    <img src="{{apiUrl + skill.Foto}}"/>
+                </p-card>
+            </div>
+        </div>
+    </div>
+</div>

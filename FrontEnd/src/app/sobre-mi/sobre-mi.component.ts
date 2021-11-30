@@ -20,13 +20,9 @@ export class SobreMiComponent extends BaseComponent implements OnInit {
   apiUrl: string = environment.baseUrl;
   imgUrl: string;
   CVUrl: string;
-  getScreenWidth: any;
-  getScreenHeight: any;
 
   ngOnInit(): void {
     this.getPerfiles()
-    this.getScreenWidth = window.innerWidth - 50;
-    this.getScreenHeight = window.innerHeight - 40;
   }
 
   @HostListener('window:resize', ['$event'])
@@ -63,13 +59,6 @@ export class SobreMiComponent extends BaseComponent implements OnInit {
     }
     catch (e){
       console.log(e);
-    }
-  }
-
-  public styleObject(){
-    return {
-      'min-height.px': this.getScreenHeight,
-      'max-height.px': this.getScreenHeight,
     }
   }
 

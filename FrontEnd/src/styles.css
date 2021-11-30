@@ -9,9 +9,38 @@
   font-size: 50px;
   text-align: center;
 }
-.margen-top {
-  margin-top: 200px;
+html {
+  height: -webkit-fill-available; /* https://twitter.com/bfgeek/status/1262465912025698304 */
 }
-.margen-bottom {
-  margin-bottom: 270px;
+
+html,
+body {
+  min-height: 100%; /* We keep this right? */
+  min-height: 100vh;
+  min-height: -webkit-fill-available; /* We want the vendor-prefixed value to take affect
+                                         in browsers that support it, fall back to 100vh,
+                                         then 100%. */
+}
+.carta {
+  max-width: 98%;
+  width: 98%;
+  height: 90%;
+  box-shadow: 5px 10px #888888;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.card-body {
+  padding: 20px;
+}
+.background {
+  background-color: white;
+}
+.backgroundImg {
+  background-image: url(C:\Users\villi\Documents\Personal\FrontEnd\src\assets\2.jpg);
+  background-size: cover;
 }

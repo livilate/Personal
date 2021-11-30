@@ -1,4 +1,17 @@
-<div *ngFor="let perfil of perfiles" class="col-xs-12 col-md-12 margen-top">
+
+<div class="col-md-12 col-xs-12 text-center" *ngFor="let perfil of perfiles">
+  <div class="col-md-12 col-xs-12">
+    <img class="img-responsive" src="{{imgUrl}}" />
+  </div>
+  <div class="col-md-12 col-xs-12">
+    <div class="introduccion">
+      <h1 class="display-2">{{perfil.RazonSocial}}</h1>
+      <p class="sobreMi">{{perfil.SobreMi}}</p>
+    </div>
+  </div>
+</div>
+
+<!--<div *ngFor="let perfil of perfiles" class="col-xs-12 col-md-12">
   <div class="row text-center">
     <div class="col-xs-12 col-md-12 col-lg-4">
       <div class="container col-xs-12 col-md-12 col-lg-12">
@@ -12,8 +25,9 @@
       </div>
     </div>
   </div>
-</div>
-<div class="col-xs-12 col-md-12 col-lg-12 text-center bordes">
-  <button pButton pRipple type="button" label="Download Resume" class="p-button-warning" (click)="downloadResume()"></button>
-  <button pButton pRipple type="button" label="Contacts" class="p-button-outlined p-button-secondary"></button>
-</div>
+
+  <div class="col-xs-12 col-md-12 col-lg-12 text-center">
+    <button pButton pRipple type="button" label="Download Resume" class="p-button-warning" (click)="downloadResume()"></button>
+    <button pButton pRipple type="button" label="Contacts" class="p-button-outlined p-button-secondary"></button>
+  </div>
+</div>-->

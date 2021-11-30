@@ -13,7 +13,8 @@ import { SharedModule } from './common/shared.module';
 import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { CursoComponent } from './curso/curso.component';
 import { SkillComponent } from './skill/skill.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MenuComponent } from './menu/menu.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
     BaseComponent,
     SobreMiComponent,
     CursoComponent,
-    SkillComponent
+    SkillComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

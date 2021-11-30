@@ -9,7 +9,7 @@
 }
 .sobreMi {
   font-size: 20px;
-  color: white;
+  color: Black;
   font-family: "Montserrat", sans-serif;
   text-align: initial;
 }
@@ -17,9 +17,6 @@
   .pull-right-lg {
     float: right;
   }
-}
-.backgroundColorHeader {
-  background-color: #3c31dd;
 }
 .p-button {
   margin: 20px;

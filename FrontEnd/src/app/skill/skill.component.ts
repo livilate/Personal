@@ -40,7 +40,6 @@ export class SkillComponent extends BaseComponent implements OnInit {
       this.subscriptionDropDowns = this.service.getSkills().subscribe(
         result => {
           this.skills = result;
-          console.log("skills, ", this.skills);
       },
         error => {
           console.log(error)

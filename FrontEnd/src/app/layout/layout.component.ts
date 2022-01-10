@@ -10,13 +10,9 @@ import { Menu } from "../models/Menu";
 export class LayoutComponent extends BaseComponent implements OnInit {
 
   menu: Array<any> = new Array<Menu>();
-  getScreenWidth: any;
-  getScreenHeight: any;
 
   ngOnInit(): void {
     this.setMenu();
-    this.getScreenWidth = window.innerWidth;
-    this.getScreenHeight = window.innerHeight;
   }
 
   setMenu() {
@@ -26,12 +22,5 @@ export class LayoutComponent extends BaseComponent implements OnInit {
       {Nombre: "Experiencia", Link: null},
       {Nombre: "main", Link: null},
     ]
-  }
-
-  public styleObject(){
-    return {
-      'min-height.px': this.getScreenHeight,
-      'max-height.px': this.getScreenHeight,
-    }
   }
 }

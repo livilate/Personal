@@ -1,0 +1,10 @@
+.separador {
+  background-image: url("../../assets/images/separador2.svg");
+  background-size: cover;
+  height: 100px;
+}
+.backgroundImg {
+  background: url("../../assets/images/separador2.svg");
+  background-size: cover;
+  height: 100%;
+}

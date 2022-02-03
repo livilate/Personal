@@ -1,0 +1,76 @@
+.timeline-card-light{
+    background: #ffffff;
+    color: #495057;
+    box-shadow: 0 5px 10px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    border-radius: 35px;
+    padding: 20px;
+}
+
+.timeline-card-dark{
+    background-color: #181a1b;
+    color: rgb(181, 175, 166);
+    box-shadow: 0 5px 10px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    border-radius: 35px;
+    padding: 20px;
+}
+
+.timeline-title {
+    color: #002233;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    -webkit-animation: color_change 1s infinite alternate;
+    -moz-animation: color_change 1s infinite alternate;
+    -ms-animation: color_change 1s infinite alternate;
+    -o-animation: color_change 1s infinite alternate;
+    animation: color_change 1s infinite alternate;
+}
+
+
+.timeline-subtitle{
+    color: #002233;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    -webkit-animation: color_change 1s infinite alternate;
+    -moz-animation: color_change 1s infinite alternate;
+    -ms-animation: color_change 1s infinite alternate;
+    -o-animation: color_change 1s infinite alternate;
+    animation: color_change 1s infinite alternate;
+}
+
+
+.timeline-info-light{
+    color: #002233;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.timeline-info-dark{
+    color: rgb(181, 175, 166);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@-webkit-keyframes color_change {
+    from { color: #002233; }
+    to { color: black; }
+}
+@-moz-keyframes color_change {
+    from { color: #002233; }
+    to { color: #0097e2; }
+}
+@-ms-keyframes color_change {
+    from { color: #002233; }
+    to { color: #0097e2; }
+}
+@-o-keyframes color_change {
+    from { color: #002233; }
+    to { color: #0097e2; }
+}
+@keyframes color_change {
+    from { color: #002233; }
+    to { color: #0097e2; }
+}

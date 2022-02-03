@@ -1,0 +1,24 @@
+<div class="col-md-12 col-xs-12">
+	<h1>Experiencia</h1>
+	<br>
+	<p-timeline [value]="exp" align="alternate" styleClass="customized-timeline">
+		<!-- <ng-template pTemplate="marker" let-item>
+            PARA EL ICONO
+            layout="horizontal"
+			align="alternate / top / bottom"
+		</ng-template> -->
+		<ng-template pTemplate="content" let-item>
+			<div class="timeline-card-light">
+				<div class="timeline-title">
+					{{item.Lugar}}
+				</div>
+				<p class="timeline-subtitle">
+					{{item.Desde}} - {{item.Hasta}}
+				</p>
+				<p class="timeline-info-light">
+					{{item.Descripcion}}
+				</p>
+			</div>
+		</ng-template>
+	</p-timeline>
+</div>

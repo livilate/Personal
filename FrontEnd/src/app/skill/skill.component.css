@@ -1,14 +1,25 @@
-.skill-card {
-  text-align: center;
-}
-::ng-deep .p-card {
-  border-radius: 10px;
-}
-::ng-deep .p-card:hover {
-  background-color: rgb(129, 129, 129);
-  color: white;
-  cursor: pointer;
-}
 .margen-top {
   margin-top: 500px;
+}
+
+.skill-card{
+  background-color: rgb(24, 26, 27);
+  color: rgb(181, 175, 166);
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 5px 10px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+  border-radius: 35px;
+  width: fit-content;
+  margin-right: 5px;
+  margin-top: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  cursor: pointer;
+  font-size:15px;
+}
+
+.skill-card:hover{
+  background: orange;
+  color: #002233;
 }

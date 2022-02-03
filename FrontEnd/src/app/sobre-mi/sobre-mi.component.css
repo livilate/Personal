@@ -4,36 +4,48 @@
   font-family: "Montserrat", sans-serif;
   margin-top: 40px;
 }
+
 .imagen {
   margin-top: 15%;
 }
+
 .sobreMi {
   font-size: 20px;
   color: white;
   font-family: "Montserrat", sans-serif;
   text-align: initial;
 }
+
 @media (min-width: 1200px) {
   .pull-right-lg {
     float: right;
   }
 }
+
 .backgroundColorHeader {
   background-color: #3c31dd;
 }
+
 .p-button {
   margin: 20px;
   margin-top: 20px;
 }
+
 @media (min-width: 769px) {
   .p-button {
     margin: 20px;
     margin-top: 75px;
   }
 }
+
 .display-2 {
   text-align: initial;
 }
+
 .margen-top {
   margin-top: 50px;
 }
+
+/* .img-responsive{
+  margin-left: auto;
+} */

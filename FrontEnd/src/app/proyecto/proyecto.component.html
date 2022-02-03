@@ -1,13 +1,20 @@
-<div class="container">
-    <h1 style="text-align:center">Skills</h1>
+<div class="col-xs-12 col-md-12 col-xl-12">
+    <h1 style="text-align:center">Proyectos</h1>
     <div class="row">
-        <div class="col-xs-3 col-md-3 col-xl-3" *ngFor="let proyecto of proyectos">
-            <p-card class="col-xs-12 col-md-12 col-xl-12" header="{{proyecto.Nombre}}">
+        <div class="col-xs-12 col-md-12 col-xl-12" *ngFor="let proyecto of proyectos">
+            <h5>Regular</h5>
+            <p-fieldset legend="Header">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </p-fieldset>
+
+            <p-fieldset legend="Header">
+                {{proyecto.Nombre}}
                 {{proyecto.Fecha}}
-                <ng-template pTemplate="footer">
-                    <p>{{proyecto.Descripcion}}</p>
-                </ng-template>
-            </p-card>
+                {{proyecto.Descripcion}}
+            </p-fieldset>
         </div>
     </div>
 </div>

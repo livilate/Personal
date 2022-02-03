@@ -8,6 +8,7 @@ urlpatterns = [
     url(r'^get_perfiles/$', views.get_perfiles),
     url(r'^get_skills/$', views.get_skills),
     url(r'^get_cursos/$', views.get_cursos),
+    url(r'^get_experiencia/$', views.get_experiencia),
     url(r'^SaveFile$', views.saveFile),
-    url(r'DownloadCV/$', views.downloadCV)
+    url(r'DownloadCV/$', views.downloadCV),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_DIR)

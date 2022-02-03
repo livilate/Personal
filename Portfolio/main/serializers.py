@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Proyecto, Perfil, Curso, Skill
+from .models import Proyecto, Perfil, Curso, Skill, Experiencia
 
 class ProyectoSerializer(serializers.ModelSerializer):
     class Meta:
@@ -40,3 +40,15 @@ class SkillSerializer(serializers.ModelSerializer):
                   'Nombre',
                   'Nivel',
                   'Foto')
+
+
+class ExperienciaSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Experiencia
+        fields = ('Id',
+                  'Lugar',
+                  'Desde',
+                  'Hasta',
+                  'Tecnologias',
+                  'Referencia',
+                  'Descripcion')

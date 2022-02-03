@@ -16,6 +16,8 @@ import { SkillComponent } from './skill/skill.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MenuComponent } from './menu/menu.component';
 import { SeparadorComponent } from './separador/separador.component'
+import { ExperienciaComponent } from './experiencia/experiencia.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 @NgModule({
   declarations: [
@@ -29,6 +31,7 @@ import { SeparadorComponent } from './separador/separador.component'
     MenuComponent,
     SeparadorComponent,
     BaseComponent,
+    ExperienciaComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,7 +41,8 @@ import { SeparadorComponent } from './separador/separador.component'
     ReactiveFormsModule,
     NgbModule,
     SharedModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule
   ],
   providers: [AppService],
   bootstrap: [AppComponent]
